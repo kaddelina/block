@@ -1,0 +1,40 @@
+*{ box-sizing: border-box;}
+html, body{ height: 100%;
+background: url(../images/Desktop\ -\ 39.jpg);
+justify-content: center;
+align-items: center;}
+
+@font-face {
+font-family: "arial";
+src: url("../fonts/arial.ttf") format("truetype");
+font-style: Light;
+font-weight: Light;
+}
+
+p, button{ 
+    font-family: 'arial';
+    align-items: center;
+ }
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.randomButton {
+    margin-top: 50px;
+    width: 200px;
+    border: 3px solid paleturquoise;
+    background-color: white;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.randomText {
+    font-size: 24px;
+    text-align: center;
+}
