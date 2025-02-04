@@ -21,8 +21,4 @@ function ShowRandomElement() {
         newLine.textContent = tips[index]; 
         randomText.appendChild(newLine);
     });
-
-    sbros.addEventListener('click', ()=> {
-        randomText.innerHTML = '';
-    });
 }
