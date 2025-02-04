@@ -12,6 +12,7 @@ function ShowRandomElement() {
     
     const randomText = document.querySelector('.randomText');
     const randomButton = document.querySelector('.randomButton');
+    const sbros = document.querySelector('.sbrosButton');
 
     randomButton.addEventListener('click', ()=> {
         let index = Math.floor(Math.random() * tips.length);
@@ -19,5 +20,9 @@ function ShowRandomElement() {
 
         newLine.textContent = tips[index]; 
         randomText.appendChild(newLine);
+    });
+
+    sbros.addEventListener('click', ()=> {
+        randomText.innerHTML = '';
     });
 }

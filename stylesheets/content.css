@@ -25,10 +25,11 @@ p, button{
     gap: 20px;
 }
 
-.randomButton {
+button {
+    color: black;
     margin-top: 50px;
     width: 200px;
-    border: 3px solid paleturquoise;
+    border: 3px solid #C8EDF5;
     background-color: white;
     padding: 10px;
     font-size: 16px;
@@ -37,4 +38,10 @@ p, button{
 .randomText {
     font-size: 24px;
     text-align: center;
+}
+
+.sbrosButton {
+    position: absolute;
+    top: 30vw;
+    margin-left: 43%;
 }
